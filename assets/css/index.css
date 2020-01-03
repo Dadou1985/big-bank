@@ -1,0 +1,55 @@
+#page{
+    background-image: url(../img/gold.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+#fenetre{
+    position: absolute;
+    background-image: url(../img/big_bank.png);
+    background-size: cover;
+    width: 68vw;
+    height: 48vw;
+    left: 220px;
+    top: 0px;
+}
+
+#myVideo{
+    position: relative;
+    height: 55vh;
+    top: 145px;
+    left: 330px;
+    filter: grayscale(0.7);
+}
+
+#touch{
+    position: absolute;
+    width: 50vw;
+    height: 10vh;
+    bottom: 40px;
+    left: 120px;
+}
+
+#touch input{
+    position: relative;
+    border-radius: 4px;
+    padding: 5px;
+    color: black;
+    background-color: rgba(221, 212, 212, 0.712);
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 280px;
+}
+
+#reset{
+    right: 40px;
+}
+
+#shut{
+    left: 30px;
+}
